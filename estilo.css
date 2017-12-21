@@ -1,0 +1,1050 @@
+@charset "utf-8";
+/* CSS Document - Federación Italiana de Fútbol */
+
+/* Familia tipográfica TTF para navegadores basados en CSS3 */
+
+@font-face {
+	font-family: "Coda Regular";
+	src: url(Coda-Regular.ttf);
+	font-size: 1.2em;
+}
+
+/* Familia tipográfica EOT file for IE */
+
+@font-face {
+	font-family: "Coda Regular";
+	src: url(Coda-Regular.eot);
+	font-size: 1.2em;
+}
+
+/* Cuerpo web */
+
+html {
+	width: 100%;
+	min-height: 100%;
+}
+
+body {
+	width: 100%;
+	min-height: 100%;
+	position: relative;
+	margin: auto; 
+	left: 0px;
+	font-family: "Coda Regular";
+}
+
+/* Capa general de web */
+
+#web {
+	width: 75%;
+	min-height: 100%;
+	position: relative;
+	margin: auto;
+}
+
+/* Identación por párrafo en ".article100" y ".article50" */
+
+p {
+	text-indent: 20px;
+}
+
+.textonumeros_a {
+	text-decoration: none;
+	color: #BFA100;
+	padding: 2px 11px;
+	line-height: 30px;
+}
+
+.textonumeros_a:hover  {
+	border: 4px solid #0000FF;
+	border-radius: 25px 0px 0px 0px;
+}
+
+/* Para menu */
+
+.estilo {
+	color: #0000FF;
+	text-decoration: none;
+	letter-spacing: 1px;
+	font-size: 1.5em;
+	font-weight: bold;
+	padding: 5px;
+	line-height: 45px;
+	cursor: pointer;
+}
+
+a.estilo:hover {
+	border: 4px solid #0000FF;
+	border-radius: 25px 0px 0px 0px;
+}
+
+a.estilo:visited {
+	color: #0000FF;
+}
+
+.estilosocios {
+	color: #1AA3FF;
+	text-decoration: none;
+	letter-spacing: 1px;
+	font-size: 1.5em;
+	font-weight: bold;
+	padding: 5px;
+	line-height: 45px;
+}
+
+a.estilosocios:hover {
+	margin: 8px 0;
+	border: 4px solid #0000FF;
+	border-radius: 25px 0px 0px 0px;
+}
+
+a.estilosocios:visited {
+	color: #1AA3FF;
+}
+
+/* Por el tag 'input' en: "ingresar.hmtl" y "registrar.html" */
+
+.borde {
+	border: 4px solid #0000FF;
+	padding: 8px;
+}
+
+.button {
+	border: 4px solid #0000FF;
+	border-radius: 25px 0px 0px 0px;
+	color: #0000FF;
+	font-weight: bolder;
+	padding: 8px;
+	margin-left: 25px;
+	cursor: pointer;
+}
+
+#verde:hover {
+	background-color: #00FF00;
+}
+
+#rojo:hover {
+	background-color: #FF3333;
+}
+
+/* En 'index.html', para sección 'Socio' */
+
+ul {
+	list-style: square;
+	color: #000099;
+}
+
+/* */
+
+.vivoazzurro {
+    	width: 50%;
+	    height: auto;
+	    display: block;
+	    margin-bottom: 3%;
+    }
+
+/* ******************************************* */
+/* INICIO: POR PANTALLA HASTA min-width: 320px */
+/* ******************************************* */
+
+@media only screen and (min-width: 320px) {
+
+	/* Por imagen de "header" */
+
+	.imgleft {
+	    float: left;
+	    margin-right: 10px;
+	    width: 80px;
+    	height: 115px;
+	}
+
+	/* Por texto de "header" */
+
+	#textoheader {
+	    font-size: 15px;
+	    color: #BFA100;
+	    float: left;
+	    margin-bottom: 10px;
+	}
+
+	#textonumeros {
+		font-size: 12px;
+		text-align: right;
+	}
+
+	.textonumeros_a {
+		text-decoration: none;
+		color: #BFA100;
+		padding: 2px 10px;
+		line-height: 25px;
+	}
+
+	#header {
+	    position: relative;
+	    width: 100%;
+	    height: auto;
+	    background-color: #FFFFFF;
+	    border: 8px double #0000FF;
+	    margin: 20px 0px 10px 0px;
+	    padding: 10px 5px 20px 10px;
+	    border-radius: 25px 0px 0px 0px;
+	    text-align: center;
+	    opacity: 0.9;
+	}
+
+	/* Sección */
+
+	#section {
+		position: relative;
+		width: 100%;
+	}
+
+	/* Menu principal */
+
+	#menu {
+	    position: relative;
+	    width: 100%;
+	    text-align: center;
+	    height: auto;
+	    background-color: #FFFFFF;
+	    border: 8px double #0000FF;
+	    margin-bottom: 10px;
+	    padding: 15px 5px 20px 10px;
+	    border-radius: 25px 0px 0px 0px;
+	    opacity: 0.9;
+	}
+
+	/* Para menu */
+
+	.estilo {
+		color: #0000FF;
+		text-decoration: none;
+		letter-spacing: 1px;
+		font-size: 1.5em;
+		font-weight: bold;
+		padding: 5px;
+		line-height: 40px;
+		cursor: pointer;
+	}
+
+	/* Para 'article' en 'galeria.html' */
+
+	.articlefoto {
+		position: relative;
+		width: 100%;
+		background-color: #FFFFFF;
+		border: 8px double #0000FF;
+		border-radius: 25px 0px 0px 0px;
+		padding: 10px 5px 20px 10px;
+		margin-bottom: 10px;
+		overflow: auto;
+		height: 250px;
+	}
+
+	/* artículo/noticia grande */
+
+	.article100 {
+	    position: relative;
+	    width: 100%;
+	    background-color: #FFFFFF;
+	    border: 8px double #0000FF;
+	    border-radius: 25px 0px 0px 0px;
+	    padding: 10px 5px 20px 10px;
+	    margin-bottom: 10px;
+	    opacity: 0.9;
+	}
+
+	/* Para "ingresar.html" y "registrar.html" */
+
+	.article {
+		position: relative;
+		width: 98%;
+		background-color: #FFFFFF;
+		border: 8px double #0000FF;
+		border-radius: 25px 0px 0px 0px;
+		padding: 0px 10px;
+		opacity: 0.9;
+		margin-bottom: 10px;
+	}
+
+	/* artículo/noticia pequeño/a */
+
+	.article50r {
+	    position: relative;
+	    width: 100%;
+	    background-color: #FFFFFF;
+	    border: 8px double #0000FF;
+	    border-radius: 25px 0px 0px 0px;
+	    padding: 10px 5px 20px 10px;
+	    margin-bottom: 10px;
+	    opacity: 0.9;
+	    overflow: auto;
+	    height: 400px;
+	}
+
+	.article50l {
+	    position: relative;
+	    width: 100%;
+	    background-color: #FFFFFF;
+	    border: 8px double #0000FF;
+	    border-radius: 25px 0px 0px 0px;
+	    padding: 10px 5px 20px 10px;
+	    margin-bottom: 10px;
+	    opacity: 0.9;
+	    overflow: auto;
+	    height: 400px;
+	}
+
+	/* Pie de página */
+
+	#footer {
+	    position: relative;
+	    width: 100%;
+	    height: 100%;
+	    background-color: #0000FF;
+	    margin-bottom: 15px;
+	    padding: 15px 5px 20px 10px;
+	    border: 8px double #FFFFFF;
+	    border-radius: 25px 0px 0px 0px;
+	    clear: both;
+	    display: block;
+	    text-align: center;
+	    opacity: 0.8;
+	}
+
+	/* Para cambiar h1 */
+
+	h1 {
+		font-size: 1.2em;
+		color: #FF0000;
+	}
+
+	/* Para cambiar h2 */
+
+	h2 {
+		font-style: italic;
+		font-size: 1.2em;
+		color: #009900;
+		margin-top: -0.9em;
+	}
+
+	/* Por la flecha "¡Sobre! */
+
+	.sobre {
+		display: flex;
+		align-content: flex-end;
+	}
+
+	/* Por fotos en: galeria.html */
+
+	.fototamanop {
+		border: 4px solid #0000FF;
+		border-radius: 25px 0px 0px 0px;
+		margin: 5px;
+		width: 93%;
+		height: auto;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	/* Por fotos de Mundial */
+
+	.fotomundial {
+		width: 93%;
+		height: auto;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+}
+
+/* **************************************** */
+/* FIN: POR PANTALLA HASTA min-width: 320px */
+/* **************************************** */
+
+/* ******************************************* */
+/* INICIO: POR PANTALLA HASTA min-width: 480px */
+/* ******************************************* */
+
+@media only screen and (min-width: 480px) {
+  
+	/* Por imagen de "header" */
+
+	.imgleft {
+		float: left;
+	    margin-right: 10px;
+	    width: 80px;
+    	height: 115px;
+	}
+
+	/* Por texto de "header" */
+
+	#textoheader {
+	    font-size: 15px;
+	    color: #BFA100;
+	    float: left;
+	    margin-bottom: 10px;
+	}
+
+	#textonumeros {
+		font-size: 12px;
+		text-align: right;
+	}
+
+	.textonumeros_a {
+		text-decoration: none;
+		color: #BFA100;
+		padding: 2px 10px;
+		line-height: 25px;
+	}
+
+	#header {
+	    position: relative;
+	    width: 100%;
+	    height: auto;
+	    background-color: #FFFFFF;
+	    border: 8px double #0000FF;
+	    margin: 20px 0px 10px 0px;
+	    padding: 10px 5px 20px 10px;
+	    border-radius: 25px 0px 0px 0px;
+	    text-align: center;
+	    opacity: 0.9;
+	}
+
+	/* Sección */
+
+	#section {
+		position: relative;
+		width: 100%;
+	}
+
+	/* Menu principal */
+
+	#menu {
+	    position: relative;
+	    width: 100%;
+	    text-align: center;
+	    height: auto;
+	    background-color: #FFFFFF;
+	    border: 8px double #0000FF;
+	    margin-bottom: 15px;
+	    padding: 15px 5px 20px 10px;
+	    border-radius: 25px 0px 0px 0px;
+	    opacity: 0.9;
+	}
+
+	/* Para menu */
+
+	.estilo {
+		color: #0000FF;
+		text-decoration: none;
+		letter-spacing: 1px;
+		font-size: 1.5em;
+		font-weight: bold;
+		padding: 5px;
+		line-height: 40px;
+		cursor: pointer;
+	}
+
+	/* Para 'article' en 'galeria.html' */
+
+	.articlefoto {
+		position: relative;
+		width: 100%;
+		background-color: #FFFFFF;
+		border: 8px double #0000FF;
+		border-radius: 25px 0px 0px 0px;
+		padding: 10px 5px 20px 10px;
+		margin-bottom: 10px;
+		overflow: auto;
+		height: 350px;
+	}
+
+	/* artículo/noticia grande */
+
+	.article100 {
+	    position: relative;
+	    width: 100%;
+	    background-color: #FFFFFF;
+	    border: 8px double #0000FF;
+	    border-radius: 25px 0px 0px 0px;
+	    padding: 10px 5px 20px 10px;
+	    opacity: 0.9;
+	    margin-bottom: 10px;
+	}
+
+	/* Para "ingresar.html" y "registrar.html" */
+
+	.article {
+		position: relative;
+		width: 100%;
+		background-color: #FFFFFF;
+		border: 8px double #0000FF;
+		border-radius: 25px 0px 0px 0px;
+		padding: 10px 5px 20px 10px;
+		opacity: 0.9;
+		margin-bottom: 10px;
+	}
+
+	/* artículo/noticia pequeño/a */
+
+	.article50 {
+	    position: relative;
+	    width: 100%;
+	    background-color: #FFFFFF;
+	    border: 8px double #0000FF;
+	    border-radius: 25px 0px 0px 0px;
+	    padding: 10px 5px 20px 10px;
+	    margin-bottom: 10px;
+	    opacity: 0.9;
+	    overflow: auto;
+	    height: 400px;
+	}
+
+	/* Pie de página */
+
+	#footer {
+	    position: relative;
+	    width: 100%;
+	    height: 100%;
+	    background-color: #0000FF;
+	    margin-bottom: 15px;
+	    padding: 15px 5px 20px 10px;
+	    border: 8px double #FFFFFF;
+	    border-radius: 25px 0px 0px 0px;
+	    clear: both;
+	    display: block;
+	    text-align: center;
+	    opacity: 0.8;
+	}
+
+	/* Para cambiar h1 */
+
+	h1 {
+		font-size: 1.2em;
+		color: #FF0000;
+	}
+
+	/* Para cambiar h2 */
+
+	h2 {
+		font-style: italic;
+		font-size: 1.2em;
+		color: #009900;
+		margin-top: -0.9em;
+	}
+
+	/* Por la flecha "¡Sobre! */
+
+	.sobre {
+		display: flex;
+		align-content: flex-end;
+	}
+
+	/* Por fotos en: galeria.html */
+
+	.fototamanop {
+		border: 4px solid #0000FF;
+		border-radius: 25px 0px 0px 0px;
+		margin: 5px;
+		width: 93%;
+    	height: auto;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 20px;
+	}
+
+	/* Por fotos de Mundial */
+
+	.fotomundial {
+		width: 93%;
+		height: auto;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+}
+
+/* **************************************** */
+/* FIN: POR PANTALLA HASTA min-width: 480px */
+/* **************************************** */
+
+/* ******************************************* */
+/* INICIO: POR PANTALLA HASTA min-width: 768px */
+/* ******************************************* */
+
+@media only screen and (min-width: 768px){
+
+	/* Encabezamiento */
+
+	#header {
+		position: relative;
+		width: auto;
+		height: auto;
+		background-color: #FFFFFF;
+		border: 8px double #0000FF;
+		margin: 20px 0px 10px 0px;
+		padding: 25px;
+		border-radius: 25px 0px 0px 0px;
+		text-align: center;
+		opacity: 0.9;
+	}
+
+	/* Menu principal */
+
+	#menu {
+		position: relative;
+		float: left;
+		width: 20%;
+		text-align: center;
+		background-color: #FFFFFF;
+		border: 8px double #0000FF;
+		padding: 30px 15px;
+		margin-bottom: 10px;
+		border-radius: 25px 0px 0px 0px;
+		opacity: 0.9;
+	}
+
+	/* Para menu */
+
+	.estilo {
+		color: #0000FF;
+		text-decoration: none;
+		letter-spacing: 1px;
+		font-size: 1em;
+		font-weight: bold;
+		padding: 5px;
+		line-height: 40px;
+		cursor: pointer;
+	}
+
+	.estilosocios {
+		color: #1AA3FF;
+		text-decoration: none;
+		letter-spacing: 1px;
+		font-size: 1em;
+		font-weight: bold;
+		padding: 5px;
+		line-height: 45px;
+	}
+
+	/* Sección */
+
+	#section {
+		position: relative;
+		float: right;
+		width: 70%;
+	}
+
+	/* Pie de página */
+
+	#footer {
+		position: relative;
+		width: auto;
+		height: auto;
+		background-color: #0000FF;
+		margin-bottom: 20px;
+		padding: 15px;
+		border: 8px double #FFFFFF;
+		border-radius: 25px 0px 0px 0px;
+		clear:both;
+		display: block;
+		text-align: center;
+		opacity: 0.8;
+	}
+
+	/* Para 'article' en 'galeria.html' */
+
+	.articlefoto {
+		position: relative;
+		float: right;
+		width: 85%;
+		background-color: #FFFFFF;
+		border: 8px double #0000FF;
+		border-radius: 25px 0px 0px 0px;
+		padding: 0px 25px 20px 25px;
+		margin-bottom: 10px;
+		overflow: auto;
+		height: 330px;
+	}
+
+	/* artículo/noticia grande */
+
+	.article100 {
+		position: relative;
+		float: right;
+		width: 85%;
+		background-color: #FFFFFF;
+		border: 8px double #0000FF;
+		border-radius: 25px 0px 0px 0px;
+		padding: 0px 25px;
+		margin-bottom: 10px;
+		opacity: 0.9;
+	}
+
+	/* Para "ingresar.html" y "registrar.html" */
+
+	.article {
+		position: relative;
+		float: right;
+		width: 85%;
+		background-color: #FFFFFF;
+		border: 8px double #0000FF;
+		border-radius: 25px 0px 0px 0px;
+		padding: 0px 25px;
+		opacity: 0.9;
+		margin-bottom: 10px;
+	}
+
+	/* artículo/noticia pequeño/a */
+
+	.article50r {
+		position: relative;
+		float: right;
+		width: 85%;
+		background-color: #FFFFFF;
+		border: 8px double #0000FF;
+		border-radius: 25px 0px 0px 0px;
+		padding: 0px 25px;
+		margin-bottom: 10px;
+		opacity: 0.9;
+		overflow: auto;
+		height: 400px;
+	}
+
+	.article50l {
+		position: relative;
+		float: right;
+		width: 85%;
+		background-color: #FFFFFF;
+		border: 8px double #0000FF;
+		border-radius: 25px 0px 0px 0px;
+		padding: 0px 25px;
+		margin-bottom: 10px;
+		opacity: 0.9;
+		overflow: auto;
+		height: 400px;
+	}
+
+	/* Por imagen de "header" */
+
+	.imgleft {
+		float: left;
+		margin-left: 150px;
+		margin-right: 50px;
+	}
+
+	/* Por texto de "header" */
+
+	#textoheader {
+		font-size: 1.3em;
+		color: #BFA100;
+		float: left;
+	}
+
+	#textonumeros {
+		font-size: 1em;
+		text-align: right;
+	}
+
+	/* Para cambiar h1 */
+
+	h1 {
+		font-size: 1.8em;
+		color: #FF0000;
+	}
+
+	/* Para cambiar h2 */
+
+	h2 {
+		font-style: italic;
+		font-size: 1.3em;
+		color: #009900;
+		margin-top: -0.9em;
+	}
+
+	/* Por la flecha "¡Sobre! */
+
+	.sobre {
+		float: right;
+	}
+
+	/* Por fotos en: galeria.html */
+
+	.fototamanop {
+		margin: 5px;
+		border: 4px solid #0000FF;
+		border-radius: 25px 0px 0px 0px;
+		width: 97%;
+    	height: auto;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 20px;
+	}
+
+	/* Por fotos de Mundial */
+
+	.fotomundial {
+		width: 97%;
+		height: auto;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+}
+
+/* **************************************** */
+/* FIN: POR PANTALLA HASTA min-width: 768px */
+/* **************************************** */
+
+/* ******************************************** */
+/* INICIO: POR PANTALLA HASTA min-width: 1200px */
+/* ******************************************** */
+
+@media only screen and (min-width: 1200px){
+
+	/* Encabezamiento */
+
+	#header {
+		position: relative;
+		width: auto;
+		height: 220px;
+		background-color: #FFFFFF;
+		border: 8px double #0000FF;
+		margin: 20px 0px 10px 0px;
+		padding: 15px;
+		border-radius: 25px 0px 0px 0px;
+		text-align: center;
+		opacity: 0.9;
+	}
+
+	#textonumeros {
+	    font-size: 1.1em;
+	    text-align: right;
+	    line-height: 30px;
+	}
+
+	/* Menu principal */
+
+	#menu {
+		position: relative;
+		float: left;
+		width: 17%;
+		text-align: center;
+		background-color: #FFFFFF;
+		border: 8px double #0000FF;
+		padding: 30px 15px;
+		margin-bottom: 10px;
+		border-radius: 25px 0px 0px 0px;
+		opacity: 0.9;
+	}
+
+	/* Para menu */
+
+	.estilo {
+		color: #0000FF;
+		text-decoration: none;
+		letter-spacing: 1px;
+		font-size: 1.4em;
+		font-weight: bold;
+		padding: 5px;
+		line-height: 40px;
+		cursor: pointer;
+	}
+
+	.estilosocios {
+		color: #1AA3FF;
+		text-decoration: none;
+		letter-spacing: 1px;
+		font-size: 1.4em;
+		font-weight: bold;
+		padding: 5px;
+		line-height: 45px;
+	}
+
+	/* Sección para ".article100" y ".article50"  */
+
+	#section {
+		position: relative;
+		float: right;
+		width: 77%;
+	}
+
+	/* Pie de página */
+
+	#footer {
+		position: relative;
+		width: auto;
+		height: 120px;
+		background-color: #0000FF;
+		margin-bottom: 20px;
+		padding: 15px;
+		border: 8px double #FFFFFF;
+		border-radius: 25px 0px 0px 0px;
+		clear:both;
+		display: block;
+		text-align: center;
+		opacity: 0.8;
+	}
+
+	/* Para 'article' en 'galeria.html' */
+
+	.articlefoto {
+		position: relative;
+		float: right;
+		width: auto;
+		background-color: #FFFFFF;
+		border: 8px double #0000FF;
+		border-radius: 25px 0px 0px 0px;
+		padding: 0px 25px 20px 25px;
+		margin-bottom: 10px;
+		overflow: auto;
+		height: 560px;
+	}
+
+	/* artículo/noticia grande */
+
+	.article100 {
+		position: relative;
+		float: right;
+		width: auto;
+		background-color: #FFFFFF;
+		border: 8px double #0000FF;
+		border-radius: 25px 0px 0px 0px;
+		padding: 0px 25px;
+		opacity: 0.9;
+		margin-bottom: 10px;
+	}
+
+	/* Para "ingresar.html" y "registrar.html" */
+
+	.article {
+		position: relative;
+		float: right;
+		width: 90%;
+		background-color: #FFFFFF;
+		border: 8px double #0000FF;
+		border-radius: 25px 0px 0px 0px;
+		padding: 0px 25px;
+		opacity: 0.9;
+		margin-bottom: 10px;
+	}
+
+	/* artículo/noticia pequeño/a */
+
+	.article50r {
+		position: relative;
+		float: right;
+		width: 39.6%;
+		background-color: #FFFFFF;
+		border: 8px double #0000FF;
+		border-radius: 25px 0px 0px 0px;
+		padding: 0px 25px;
+		margin: 0px 0px 10px 5px;
+		opacity: 0.9;
+		overflow: auto;
+		height: 400px;
+	}
+
+	.article50l {
+		position: relative;
+		float: left;
+		width: 39.6%;
+		background-color: #FFFFFF;
+		border: 8px double #0000FF;
+		border-radius: 25px 0px 0px 0px;
+		padding: 0px 25px;
+		margin: 0px 5px 10px 0px;
+		opacity: 0.9;
+		overflow: auto;
+		height: 400px;
+	}
+
+	/* Por imagen de "header" */
+
+	.imgleft {
+		width: auto;
+		height: auto;
+		float: left;
+		margin-left: 300px;
+		margin-right: 50px;
+	}
+
+	/* Por texto de "header" */
+
+	#textoheader {
+		font-size: 40px;
+		color: #BFA100;
+		float: left;
+	}
+
+	/* Para cambiar h1 */
+
+	h1 {
+		font-size: 1.8em;
+		color: #FF0000;
+	}
+
+	/* Para cambiar h2 */
+
+	h2 {
+		font-style: italic;
+		font-size: 1.3em;
+		color: #009900;
+		margin-top: -0.9em;
+	}
+
+	/* Por la flecha "¡Sobre! */
+
+	.sobre {
+		float: right;
+	}
+
+	/* Por fotos en: galeria.html */
+
+	.fototamanop {
+		margin: 5px;
+		border: 4px solid #0000FF;
+		border-radius: 25px 0px 0px 0px;
+		width: 100%;
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 20px;
+	}
+
+}
+
+/* ***************************************** */
+/* FIN: POR PANTALLA HASTA min-width: 1200px */
+/* ***************************************** */
+
+/* ******************************************** */
+/* INICIO: POR PANTALLA HASTA min-width: 1800px */
+/* ******************************************** */
+
+@media only screen and (min-width: 1800px){
+
+	.articlefoto {
+		position: relative;
+		float: right;
+		width: auto;
+		background-color: #FFFFFF;
+		border: 8px double #0000FF;
+		border-radius: 25px 0px 0px 0px;
+		padding: 0px 25px 20px 25px;
+		margin-bottom: 10px;
+		overflow: auto;
+		height: 750px;
+	}
+
+}
+
+/* ***************************************** */
+/* FIN: POR PANTALLA HASTA min-width: 1800px */
+/* ***************************************** */
