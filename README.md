@@ -1,6 +1,9 @@
 # FootballFederation
 Run index.html to view project.
 -------------------------------
+
+Final exercise HTML/CSS/JavaScript for the course of "Experto en Desarrollo de Proyectos en Internet" by Master.D Spain. 
+
 Como ejercicio final proponemos la creación desde cero de una web que trate sobre el equipo favorito de fútbol, baloncesto o el deporte que se desee.
 Dicha web deberá estar orientada al posicionamiento para términos relacionados con el equipo como su nombre, el deporte que se elija en la ciudad, resultados, historia…
 La web contendrá al menos cinco páginas:
